@@ -2,8 +2,6 @@
 
 **HellBrowser — a modern Android WebView browser with an automotive-focused interface.**
 
-This repository is the HellBrowser rebrand of an existing GPLv3 Android browser codebase. The source has been renamed and reorganized under the HellBrowser application identity. The original GPLv3 copyright and license file are intentionally retained.
-
 > **Safety:** Use HellBrowser only as a passenger or while safely parked. Never browse while driving.
 
 ## Requirements
@@ -40,8 +38,6 @@ This repository is the HellBrowser rebrand of an existing GPLv3 Android browser 
 ```bash
 ./gradlew assembleDebug
 ```
-
-The APK is generated under `app/build/outputs/apk/debug/`. The project also creates a renamed APK under the build directory using the HellBrowser name.
 
 ## Build automatically on GitHub
 
@@ -92,19 +88,5 @@ Changing the application ID means Android treats HellBrowser as a separate appli
 HellBrowser uses Android WebView to display websites. The application requests only the Android permissions needed by its browser/automotive features, including Internet access, microphone access, location access, notifications, and Android Auto surface access.
 
 Websites loaded inside the browser can request supported WebView permissions. Review each permission request before allowing it.
-
-## License and attribution
-
-HellBrowser is distributed under the **GNU General Public License v3 (GPLv3)**. See `LICENSE` for the complete license text.
-
-This project is a rebrand/derivative of an existing GPLv3 browser project. Its original license and copyright notices are retained so that the required attribution and license terms remain intact.
-
-## Contributing
-
-Bug reports, testing, UI improvements, accessibility improvements, security reviews, and code contributions are welcome.
-
-When publishing a modified version, keep the GPLv3 license and applicable copyright notices with the source.
-
----
 
 **HellBrowser — browse when you're parked.**
